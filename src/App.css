@@ -1,0 +1,40 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.app {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.board {
+  min-width: 300px;
+  min-height: 400px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 20px 10px;
+  margin: 10px;
+  border: 5px solid rgb(0, 0, 0);
+  border-radius: 12px;
+}
+
+.board__title {
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+.item {
+  width: 100%;
+  padding: 10px;
+  margin: 5px 0;
+  border: 2px solid lightsalmon;
+  border-radius: 6px;
+  background-color: aquamarine;
+  cursor: grab;
+}
